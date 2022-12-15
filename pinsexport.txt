@@ -1,0 +1,22 @@
+curl 'https://www.padmapper.com/api/t/1/pins' \
+  -H 'Accept: */*' \
+  -H 'Accept-Language: en-US,en;q=0.9,nl;q=0.8' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/json' \
+  -H 'Cookie: padmapper.sid=s%3Au3pNVwDnBDQ_BWPybHk-Cr8yRY8dJKo9.0rSkVI%2FI%2FbBW4vZ0OyikdMQegItvjBYMz0nO%2Bgw4cQ0; _uc_referrer=direct; _pbjs_userid_consent_data=3524755945110770; _gcl_au=1.1.43247759.1669660566; _ga=GA1.2.764187806.1669660567; _gid=GA1.2.755109994.1669660567; _bs=b3ad9f2e-8b70-973d-33b3-c90f9b2f4166; csrftoken=jJvBD9wb1IC194eJuJWXQtLJ7O1Z6THeR4uzQ15hdTMEdArixuqkdsADkyDRDnleaGdFTTnazjc2k6xR; _gat_UA-6234140-3=1; cto_bundle=8heh3F91NEZLRFo3Mms4UWk2aTFtTkdYUUV0UTdlcHE0ZU80RndmbkxHbmh2Vm04MGNrbjlkYWw3ZkxpTXVhdmc1enlCTmZiaSUyRkZWeEQzVEF3YnZPZjlhU1lhMjJMWVBtaHNuR3paQXElMkJuUVRBNVc2TGhkWkFnSWwzbm5kJTJCVGNMb0F1anhveDElMkJSM3M0Skl5VGh0VkNmSFB1ZyUzRCUzRA; cto_bidid=4MMINF9rWGN6VzBkdVFLR3pYeFpwUXgxbWRyQWU1bWxVc1g4QTNqMVF4SXRqd1JhUGptd1pvc0l2Z2ElMkZxM0tPdzB4QUdQMlNVMGlGdmI0eWRyZlRMdko4VmdJMk9KUjIlMkJMUnJMeGZZMiUyRjA3VkRCZyUzRA' \
+  -H 'DNT: 1' \
+  -H 'Origin: https://www.padmapper.com' \
+  -H 'Pragma: no-cache' \
+  -H 'Referer: https://www.padmapper.com/apartments/belmont-ma/belmont-hill?box=-71.1993028524,42.396054506,-71.1761285665,42.4262507215&property-categories=apartment' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36' \
+  -H 'X-CSRFToken: tuEDshAPmvblC8NEe3NcDNb4pp4mccPY1PDBF99VyGlYGE0dhOhz0M0YC9GeJGtYaGdFTTnazjc2k6xR' \
+  -H 'X-Zumper-XZ-Token: idmxwl4rcb1.rc690pyd' \
+  -H 'sec-ch-ua: "Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  --data-raw '{"external":true,"longTerm":false,"maxLat":42.40722,"maxLng":-71.1914,"minLat":42.36328,"minLng":-71.27929,"minPrice":0,"propertyCategories":["apartment"],"shortTerm":false,"transits":{},"limit":100}' \
+  --compressed
